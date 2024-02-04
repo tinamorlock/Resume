@@ -1,0 +1,53 @@
+:root {
+    --yellow: #FCF201;
+    --violet: #6F63AD;
+    --light: #F3F3F3;
+    --white: #FFFFFF;
+    --dark: #082340;
+}
+
+html, body {
+    background-color: var(--dark);
+    padding: 0;
+    margin: 0;
+}
+
+.bg-body-tertiary {
+    background-color: var(--yellow) !important;
+    color: var(--dark);
+}
+
+.btn-outline-success {
+    color: var(--dark);
+    border-color: var(--dark);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--violet);
+    color: var(--yellow);
+    border-color: var(--dark);
+}
+
+.nav-link:hover {
+    background-color: var(--violet);
+}
+
+.dropdown-menu {
+    background-color: var(--light);
+}
+.dropdown-item:hover {
+    background-color: var(--violet);
+    color: var(--yellow);
+}
+
+.nav-link {
+    color: var(--dark);
+}
+
+.nav-link:hover, active:hover {
+    color: var(--yellow);
+}
+
+.TM--logo {
+    width: 15%;
+}
