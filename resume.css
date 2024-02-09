@@ -10,44 +10,55 @@ html, body {
     background-color: var(--dark);
     padding: 0;
     margin: 0;
+    color: var(--light);
 }
 
-.bg-body-tertiary {
-    background-color: var(--yellow) !important;
-    color: var(--dark);
+.container {
+    margin-top: 1%;
 }
 
-.btn-outline-success {
-    color: var(--dark);
-    border-color: var(--dark);
+.img-fluid {
+    max-width: 100px;
 }
 
-.btn-outline-success:hover {
-    background-color: var(--violet);
+h1,h5 {
     color: var(--yellow);
-    border-color: var(--dark);
 }
 
-.nav-link:hover {
-    background-color: var(--violet);
+.down {
+    margin-top: 15px;
 }
 
-.dropdown-menu {
+.left-column {
+    width: 65%;
+}
+
+a {
     background-color: var(--light);
+    color: var(--violet);
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
 }
-.dropdown-item:hover {
+
+.skill-link {
+    background-color: var(--yellow);
+    color: var(--violet);
+    padding: 0;
+}
+
+.job-title {
     background-color: var(--violet);
-    color: var(--yellow);
+    display: inline-block;
+    padding: 3px;
+    border-radius: 3px;
 }
 
-.nav-link {
+footer {
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--yellow);
     color: var(--dark);
-}
-
-.nav-link:hover, active:hover {
-    color: var(--yellow);
-}
-
-.TM--logo {
-    width: 15%;
 }
